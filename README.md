@@ -1,7 +1,7 @@
 # Text-Classification-Using-TF-IDF
 #### ex.txt (KD) is a sample small text that is copied from VNexpress. I use it to test my model.
 #### stopwords_vn.txt is Vietnamese stop word.
-#### more details in Ex4a.ipynb
+#### more details in tf-idf.ipynb
 Data: Vietnamese text which is crawled from Vnexpress and split into different topics.
 ***************************************************************************
 |Topic | Topic ID | #files |
