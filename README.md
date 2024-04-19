@@ -1,9 +1,12 @@
-# Text-Classification-Using-TF-IDF
-#### ex.txt (KD) is a sample small text that is copied from VNexpress. I use it to test my model.
-#### stopwords_vn.txt is Vietnamese stop word.
-#### more details in tf-idf.ipynb
-Data: Vietnamese text which is crawled from Vnexpress and split into different topics.
-***************************************************************************
+# Text Classification Using TF-IDF
+This project focuses on text classification using TF-IDF (Term Frequency-Inverse Document Frequency), a technique widely used in natural language processing tasks. The dataset comprises Vietnamese text crawled from Vnexpress and segmented into various topics.
+
+# Files Description
+- ex.txt (KD): This file contains a small sample text excerpted from VNexpress, utilized for testing the model.
+- stopwords_vn.txt: Vietnamese stop words list used for text preprocessing.
+ 
+# Dataset Overview
+The dataset is categorized into different topics, each with a corresponding topic ID and the number of files associated with it.
 |Topic | Topic ID | #files |
 | --- | --- | --- |
 | Chinh tri Xa hoi | XH |	5219 |
@@ -17,3 +20,9 @@ Data: Vietnamese text which is crawled from Vnexpress and split into different t
 | Van hoa | VH | 3080 |
 | Vi tinh	| VT | 2481 |
 | Total | | 33759 |
+
+# Details
+For further details on the implementation and analysis, refer to the *tf-idf.ipynb* notebook.
+
+# Conclusion
+Through text classification using TF-IDF, this project aims to categorize Vietnamese text articles into different topics, facilitating easier access and navigation of information. By leveraging TF-IDF and appropriate preprocessing techniques, the goal is to build an effective text classification system capable of accurately assigning topics to textual data.
