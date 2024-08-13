@@ -1,1 +1,5 @@
 /data/
+/lightning_logs/
+cleand_text.txt
+/checkpoint/
+/phobert-base/
